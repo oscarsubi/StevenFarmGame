@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">StevenFarmGame</string>
+    <string name="confirm_exit">CONFIRM</string>
+    <string name="message_exit">Are you sure do you want to exit the game?</string>
+    <string name="positive_exit">YES</string>
+    <string name="negative_exit" translatable="false">NO</string>
+    <string name="msg_cover">Click to continue...</string>
+    <string name="msg_name">Introduce a player Name</string>
+    <string name="start">Press START button to play</string>
+    <string name="confirm_finish">PUNCTUATION</string>
+    <string name="positive_next">NEXT PLAYER</string>
+    <string name="negative_replay">PLAY AGAIN</string>
+    <string name="music">Select if you want music to play</string>
+    <string name="explanation1">Meet with your friends to play this fun game and bet whatever
+        you want. \n\nWho will be the best hunter of digletts?</string>
+    <string name="explanation2">To help Steven you have to click on the digletts that appear on the
+        screen.\n\nTry to get the highest score!</string>
+    <string name="back_press">Wait to finish</string>
+    <string name="positive_finish">GO TO SCORE</string>
+    <string name="msg_np">PLAYER %1$d</string>
+    <string name="msg_score">Start a NEW GAME</string>
+    <string name="NumberPlayers">Select the number of players</string>
+    <string name="tie_braker">THERE IS A TIE WITH...</string>
+    <string name="positive_ok" translatable="false">OK</string>
+    <string name="win_msg">THE WINNER IS...</string>
+</resources>

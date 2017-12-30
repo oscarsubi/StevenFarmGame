@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StevenFarmGame</string>
+    <string name="NumberPlayers">Selecciona el nombre de jugadors</string>
+    <string name="back_press">Espera a acabar</string>
+    <string name="confirm_exit">CONFIRMAR</string>
+    <string name="confirm_finish">PUNTUACIÓ</string>
+    <string name="explanation1">Queda amb els teus amics per jugar a aquest divertit joc i apostar
+        quelcom. \n\nQui serà el millor caçador de digletts?</string>
+    <string name="explanation2">Per ajudar al Steven has de clicar els digletts que apareixen a la
+        pantalla. \n\nAconsegueix la màxima puntuació!</string>
+    <string name="message_exit">Estàs segur de que vols sortir del joc?</string>
+    <string name="msg_cover">Clica per continuar</string>
+    <string name="msg_name">Introdueix un nom de jugador</string>
+    <string name="msg_score">Comença un NEW GAME</string>
+    <string name="music">Selecciona si vols musica per jugar</string>
+    <string name="negative_replay">TORNAR A JUGAR</string>
+    <string name="positive_exit">SÍ</string>
+    <string name="positive_finish">ANAR AL SCORE</string>
+    <string name="positive_next">SEGÜENT JUGADOR</string>
+    <string name="start">Prem START per jugar</string>
+    <string name="tie_braker">HI HA UN EMPAT AMB...</string>
+    <string name="win_msg">EL GUANYADOR ÉS...</string>
+    <string name="msg_np">JUGADOR %1$d</string>
+</resources>

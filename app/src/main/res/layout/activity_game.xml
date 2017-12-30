@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo"
+    tools:context="upc.android.projecte.stevenfarmgame.Game">
+
+    <RelativeLayout
+        android:layout_width="375dp"
+        android:layout_height="565dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/game"
+        android:id="@+id/relativeLayout">
+
+        <TextView
+            android:id="@+id/player_number"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:layout_alignEnd="@+id/b_diglett5"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/b_diglett5"
+            android:layout_marginBottom="22dp"
+            android:textAlignment="center"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/player_name"
+            android:layout_width="325dp"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/points"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/points"
+            android:fontFamily="cursive"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@android:color/black"
+            android:textSize="40sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/points"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignLeft="@+id/b_diglett1"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/b_diglett1"
+            android:layout_marginTop="63dp"
+            android:fontFamily="sans-serif"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="36sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/b_diglett3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/digletts"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/b_diglett2"
+            android:layout_toRightOf="@+id/b_diglett4"
+            android:layout_toEndOf="@+id/b_diglett4"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp" />
+
+        <ImageButton
+            android:id="@+id/b_diglett5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="14dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/diglett"
+            android:layout_alignBottom="@+id/b_diglett4"
+            android:layout_toRightOf="@+id/b_diglett2"
+            android:layout_toEndOf="@+id/b_diglett2" />
+
+        <ImageButton
+            android:id="@+id/b_diglett4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/diglett"
+            android:layout_below="@+id/b_diglett3"
+            android:layout_alignLeft="@+id/b_diglett1"
+            android:layout_alignStart="@+id/b_diglett1" />
+
+        <ImageButton
+            android:id="@+id/b_diglett2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignTop="@+id/b_diglett1"
+            android:layout_marginLeft="78dp"
+            android:layout_marginStart="78dp"
+            android:layout_toEndOf="@+id/b_diglett1"
+            android:layout_toRightOf="@+id/b_diglett1"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/diglett" />
+
+        <ImageButton
+            android:id="@+id/b_diglett1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/diglett"
+            android:layout_marginLeft="22dp"
+            android:layout_marginStart="22dp"
+            android:layout_marginTop="182dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="190dp"
+        android:layout_height="60dp"
+        android:layout_alignBottom="@+id/relativeLayout"
+        android:layout_alignEnd="@+id/relativeLayout"
+        android:layout_alignRight="@+id/relativeLayout"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="86dp"
+        android:layout_marginRight="86dp"
+        android:fontFamily="serif"
+        android:text="30"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="36sp"
+        android:textStyle="bold|italic" />
+
+    <ImageButton
+        android:id="@+id/b_start"
+        android:layout_width="350dp"
+        android:layout_height="170dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/bstart"
+        android:layout_marginTop="14dp"
+        android:layout_alignTop="@+id/relativeLayout"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/b_musicon"
+        android:layout_width="175dp"
+        android:layout_height="230dp"
+        android:layout_alignLeft="@+id/b_start"
+        android:layout_alignStart="@+id/b_start"
+        android:layout_below="@+id/b_start"
+        android:layout_marginTop="34dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/volumeon" />
+
+    <ImageButton
+        android:id="@+id/b_musicoff"
+        android:layout_width="175dp"
+        android:layout_height="230dp"
+        android:layout_alignTop="@+id/b_musicon"
+        android:layout_toEndOf="@+id/b_musicon"
+        android:layout_toRightOf="@+id/b_musicon"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/volumeoff" />
+
+</RelativeLayout>
